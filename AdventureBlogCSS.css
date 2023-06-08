@@ -1,0 +1,314 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+}
+
+#logo-image-header {
+
+}
+
+#logo-image-header img {
+    height: 100px;
+    width: auto;
+}
+
+.navigation-bar {
+    display: flex;
+    position: sticky;
+    top: 0px;
+    justify-content: space-between;
+    background-color: #20382e;
+    border: 20px solid;
+    border-color: #20382e;
+    z-index: 200;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-bar a {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.title {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+h1.title-text {
+    position: relative;
+    bottom: -3em;
+    z-index: 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 3em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 0 solid transparent;
+}
+
+img.title-image {
+    position: relative;
+    top: -4em;
+    z-index: 0;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: 0 solid transparent;
+}
+
+#cali-road-trip-title {
+    color: white;
+}
+
+#home-page-title {
+    color: transparent;
+}
+
+#outer-banks-title {
+    color: #126363;
+}
+
+#contact-subscribe-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 3em;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: #20382e;
+}
+
+#california-desert-road-trip-page {
+    background-color: #eddbd1;
+}
+
+#outer-banks-page {
+    background-color: #def0fa;
+}
+
+.article-content {
+    margin: 3% 11%;
+    border: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.more-info-links {
+    border: 2px solid black;
+    padding: 3%;
+}
+
+form {
+    margin: 3% 25% 10% 25%;
+    border: 3px solid #20382e;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #20382e;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+}
+
+#contact-form, #subscribe-form {
+    flex-direction: column;
+}
+
+
+input {
+    margin: 2%;
+}
+
+textarea {
+    margin: 2%;
+}
+
+legend {
+    position: relative;
+    left: -10%;
+    top: -32px;
+    font-size: 1.5em;
+}
+
+button {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 3px solid #20382e;
+    background-color: #20382e;
+    margin: 2%;
+}
+
+#contact-subscribe-article {
+    background-color: #c4f2e4;
+}
+
+#page-end {
+    color: #c4f2e4;
+}
+
+#contact-subscribe-article div {
+    display: flex;
+    justify-content: center;
+}
+
+.text-field {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.checkbox input {
+    height: 18px;
+    width: 18px;
+}
+
+#outer-banks-article a {
+    color: #126363;
+}
+
+.cali-desert-images {
+    display: grid;
+    grid-template: 320px 30px 320px 30px / 420px 245px 420px;
+}
+
+.cali-desert-images p {
+    height: 10px;
+    font-size: 10px;
+    margin: 0;
+    padding: 0 10px 20px 10px;
+}
+
+#joshua-tree-bicycle-art {
+    height: 300px;
+    width: 400px;
+    border: 10px solid transparent;
+}
+
+#beau-on-salt-flats {
+    height: 300px;
+    width: 225px;
+    border: 10px solid transparent;
+}
+
+#arch-at-mt-whitney {
+    height: 300px;
+    width: 400px;
+    border: 10px solid transparent;
+}
+
+#kelly-mojave-favorite-tree {
+    height: 300px;
+    width: 400px;
+    border: 10px solid transparent;
+}
+
+#charcoal-kilns {
+    height: 300px;
+    width: 225px;
+    border: 10px solid transparent;
+}
+
+#secret-mine-death-valley {
+    height: 300px;
+    width: 400px;
+    border: 10px solid transparent;
+}
+
+#frosted-ski-goggles {
+    display: block;
+    height: auto;
+    width: 30%;
+    margin: 4% 35%;
+}
+
+.horse-riding-pictures {
+    display: grid;
+    grid-template: 420px / repeat(3, 320px);
+}
+
+#friends-on-beach-horses {
+    height: 400px;
+    width: 300px;
+    border: 10px solid transparent;
+}
+
+#beau-in-creek-horses {
+    height: 400px;
+    width: 300px;
+    border: 10px solid transparent;
+}
+
+#kate-friends-on-trail-horses {
+    height: 400px;
+    width: 300px;
+    border: 10px solid transparent;
+}
+
+.seafood-boil-pictures {
+    display: grid;
+    grid-template: 420px / 619.5px 320px;
+}
+
+#friends-around-seafood-table {
+    height: 400px;
+    width: 599.5px;
+    border: 10px solid transparent;
+}
+
+#seafood-boil-on-table {
+    height: 400px;
+    width: 300px;
+    border: 10px solid transparent;
+}
+
+.lighthouse-pictures {
+    display: grid;
+    grid-template: 420px / repeat(3, 320px);
+}
+
+#bodie-lighthouse {
+    height: 400px;
+    width: 300px;
+    border: 10px solid transparent;
+}
+
+#cape-hatteras-lighthouse {
+    height: 400px;
+    width: 300px;
+    border: 10px solid transparent;
+}
+
+#ocracoke-lighthouse {
+    height: 400px;
+    width: 300px;
+    border: 10px solid transparent;
+}
